@@ -90,7 +90,7 @@ export const useMenuTab = () => {
       dispatch(setKeyMenu(key));
       navigation(key.split(":")[1]);
     } else {
-      navigation("/");
+      navigation("/manage");
     }
   };
 

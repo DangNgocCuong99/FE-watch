@@ -16,14 +16,14 @@ import StatusView from "../views/status/xu-ly/view";
 
 const appRoutes: RouteType[] = [
   {
-    path: "/home",
+    path: "/manage/home",
     element: <Status />,
     state: "Home",
     displayText: "HOME",
     icon: <DesktopOutlined />,
   },
   {
-    path: "/status",
+    path: "/manage/status",
     state: "status",
     element: <Status />,
     displayText: "Status",
@@ -54,7 +54,7 @@ const appRoutes: RouteType[] = [
     ],
   },
   {
-    path: "/component",
+    path: "/manage/component",
     state: "component",
     element: <StatusView />,
     displayText: "Components",
@@ -75,21 +75,21 @@ const appRoutes: RouteType[] = [
     ],
   },
   {
-    path: "/documentation",
+    path: "/manage/documentation",
     element: <ViewA />,
     state: "documentation",
     displayText: "Documentation",
     icon: <TeamOutlined />,
   },
   {
-    path: "/changelog",
+    path: "/manage/changelog",
     element: <StatusAdd />,
     state: "changelog",
     displayText: "Changelog",
     icon: <UserOutlined />,
   },
   {
-    path: "/profile",
+    path: "/manage/profile",
     element: <></>,
     state: "profile",
     displayText: "Trang cá nhân",
@@ -105,14 +105,14 @@ const appRoutes: RouteType[] = [
     ],
   },
   {
-    path: "/avatar",
+    path: "/manage/avatar",
     element: <></>,
     state: "avatar",
     displayText: "Ảnh đại diện",
     hiddenMenu: true,
   },
   {
-    path: "/change_password",
+    path: "/manage/change_password",
     element: <></>,
     state: "change_password",
     displayText: "Đổi mật khẩu",

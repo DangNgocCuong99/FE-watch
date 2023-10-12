@@ -22,7 +22,7 @@ const MenuSideBar: React.FC = () => {
   const navigation = useNavigate();
 
   useEffect(() => {
-    if (location.pathname !== "/") {
+    if (location.pathname !== "/manage") {
       handleChangePage(location.pathname)
     }else {
       navigation(`${first(items)!.key}`)

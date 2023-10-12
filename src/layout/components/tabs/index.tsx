@@ -27,7 +27,7 @@ function TabMenu() {
       setKeyMenu("");
       return;
     }
-    if (location.pathname !== "/") {
+    if (location.pathname !== "/manage") {
       const routePath = handleFindRoute(location.pathname);
       if (routePath) {
         setRoute({
